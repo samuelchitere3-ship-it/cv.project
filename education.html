@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Meshack Okeyo</title>
+    <style>
+        /* General Reset & Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #1b4332;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid #2d6a4f; /* Green accent line */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: #b7e4c7;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Table Styling */
+        .education-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .education-table th, 
+        .education-table td {
+            padding: 16px 20px;
+            text-align: left;
+        }
+
+        .education-table th {
+            background-color: #2d6a4f; /* Green header */
+            color: white;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .education-table tr {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .education-table tr:last-child {
+            border-bottom: none;
+        }
+
+        .education-table tr:hover {
+            background-color: #f1f8f5; /* Light green hover tint */
+        }
+
+        .year-column {
+            font-weight: bold;
+            color: #2d6a4f; /* Green text for years */
+            white-space: nowrap;
+            width: 25%;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+            border-top: 2px solid #d8f3dc;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Education</h1>
+       <nav>
+        <a href="index.html">Home</a>
+        <a href="education.html">education</a>
+        <a href="contacts .html">contacts</a>
+        <a href="personal details.html">personal details</a>
+        <a href="skills.html">hobbies</a>
+        <a href="experience.html">experience</a>
+    </nav>
+</header>
+
+<main>
+    <table class="education-table">
+        <thead>
+            <tr>
+                <th>Duration</th>
+                <th>Institution & Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="year-column">2025 - Present</td>
+                <td>Currently studying at Kisii University pursuing a degree in Information Technology.</td>
+            </tr>
+            <tr>
+                <td class="year-column">2024 - 2025</td>
+                <td>Studied at Mosoti Computer Training School where I learned computer packages and programming skills.</td>
+            </tr>
+            <tr>
+                <td class="year-column">2021 - 2024</td>
+                <td>Studied at Chesamisi Boys and completed KCSE with a mean grade of B.</td>
+            </tr>
+            <tr>
+                <td class="year-column">2010 - 2020</td>
+                <td>Completed primary education at Kadima Primary School.</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer>
+    <p>&copy; 2026 Samuel Chitere</p>
+</footer>
+
+</body>
+</html>
